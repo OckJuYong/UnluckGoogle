@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.left-top {
+    float: left;
+    text-decoration: none;
+    
+}
+
+.right-top {
+    float: right;
+ }
+
+ .Google-information, .store {
+    display: inline-block;
+    padding-left: 20px;
+    color: black;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.gmail, .image, .menu {
+  display: inline-block;
+  padding-left: 20px;
+  left: 250px;
+  color: black;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.menu {
+    padding: 0px 15px 0px 20px;
+    width: 15px;
+    height: 15px;
+}  
+.title {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.search {
+    text-align: center;
+}
+
+.input_text {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(190, 190, 190);
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 25%;
+}
+
+button {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 0 3px;
+    padding: 10px 15px;
+    color: #000;
+    border: none;
+    background-color: rgb(187, 191, 193);
+    }
+#quickButton {
+    position: absolute;
+    left: 700px;
+    margin-top: -30px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+}
+
+header:hover {
+    text-decoration: underline;
+}
+
+.left-top .right-top a:hover {
+    text-decoration: underline;
+}
